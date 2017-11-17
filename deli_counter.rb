@@ -9,6 +9,7 @@ katz_deli = []
         while position < (katz_deli.count)
           katz_deli.insert((position+2), "#{counter}. ")
           counter +=2
+          position +=1
         end
         puts "The line is currently: 1. #{katz_deli.join}"
       end
