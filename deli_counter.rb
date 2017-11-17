@@ -6,7 +6,7 @@ katz_deli = []
       else
         counter == 2
         position == 0
-        while counter < (index_total)
+        while counter < (katz_deli.count)
           katz_deli.insert((position+2), (counter))
           counter +=2
         end
