@@ -5,8 +5,10 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     counter = 2
-    puts "The line is currently: 1. #{katz_deli.join(" #{counter}. ")}"
+    puts "The line is currently: 1. #{katz_deli.join(" #{katz_deli.index}. ")}"
       counter +=1
 
   end
 end
+
+
