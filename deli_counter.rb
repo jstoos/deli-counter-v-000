@@ -6,7 +6,7 @@ katz_deli = []
       else
         counter = 2
         position = 0
-        while position < (katz_deli.count)
+        while position < katz_deli.count
           katz_deli.insert((position+2), "#{counter}. ")
           counter +=1
           position +=2
