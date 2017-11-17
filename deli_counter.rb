@@ -10,6 +10,6 @@ katz_deli = []
           katz_deli.insert((position+2), "#{counter}. ")
           counter +=2
         end
-        puts "The line is currently: 1. #{katz_deli.join}
+        puts "The line is currently: 1. #{katz_deli.join}"
       end
     end
