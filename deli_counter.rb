@@ -4,8 +4,8 @@ katz_deli = []
       if katz_deli.count == 0
         puts "The line is currently empty."
       else
-        counter = 2
-        position = 1
+        counter == 2
+        position == 1
         while position < katz_deli.count
           katz_deli.insert((position+2), "#{counter}. ")
           counter +=1
