@@ -22,7 +22,7 @@ end
 
 def now_serving(katz_deli)
   if katz_deli.count ==0
-    puts 
+    puts
   else
     puts "Currently serving #{katz_deli[0]}."
     katz_deli.delete_at(0)
